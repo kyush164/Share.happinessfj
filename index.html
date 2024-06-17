@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share.happinessfj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b2d8b2; /* Darker mint green background */
+        }
+        header {
+            background-color: #005500; /* Dark green */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #005500; /* Dark green */
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #005500;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .order-page {
+            background-color: #e0f7e9;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .order-page textarea,
+        .order-page input {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .order-page button {
+            background-color: #005500;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        nav {
+            background-color: #005500;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .order-page .input-group {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .order-page .input-group input {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Share.happinessfj</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#order">Order Now</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>At Share.happinessfj, we create unique crafts, cards, and gifts designed to bring a smile to your face. We use mostly recycled and commonly found materials to ensure our products are eco-friendly and sustainable.</p>
+        <p>Our creations include homemade bouquets, cards and crafts, and decorations and designs. We take pride in making each piece with love and attention to detail.</p>
+    </div>
+
+    <div class="section" id="gallery">
+        <h2>Gallery</h2>
+        <h3>Bouquets</h3>
+        <p>We offer a wide variety of designs, each creative and new, to suit every occasion.</p>
+        <div class="gallery">
+            <img src="craft1.jpg" alt="Bouquet 1">
+            <img src="craft2.jpg" alt="Bouquet 2">
+            <img src="craft3.jpg" alt="Bouquet 3">
+            <img src="craft4.jpg" alt="Bouquet 4">
+            <img src="craft5.jpg" alt="Bouquet 5">
+        </div>
+        <h3>Cards and Crafts</h3>
+        <p>Our cards are crafted with various materials to give an aesthetic look, making each piece unique.</p>
+        <div class="gallery">
+            <img src="craft6.jpg" alt="Craft 1">
+            <img src="craft7.jpg" alt="Craft 2">
+            <img src="craft8.jpg" alt="Craft 3">
+            <img src="craft9.jpg" alt="Craft 4">
+            <img src="craft10.jpg" alt="Craft 5">
+        </div>
+        <h3>Decorations and Designs</h3>
+        <p>Our decorations are designed to add a special touch to any space, combining beauty with creativity.</p>
+        <div class="gallery">
+            <img src="craft11.jpg" alt="Decoration 1">
+            <img src="craft12.jpg" alt="Decoration 2">
+            <img src="craft13.jpg" alt="Decoration 3">
+            <img src="craft14.jpg" alt="Decoration 4">
+            <img src="craft15.jpg" alt="Decoration 5">
+        </div>
+    </div>
+
+    <div class="section" id="order">
+        <h2>Order Now</h2>
+        <div class="order-page">
+            <p>Place your order below. We will contact you regarding payment information and any other clarifications needed.</p>
+            <p><strong>Note:</strong> There is a delivery charge for orders outside the Suva area. Orders above $100 qualify for free delivery.</p>
+            <form action="mailto:pshareha@gmail.com, marvelkumar32815@gmail.com" method="post" enctype="text/plain">
+                <div class="input-group">
+                    <input type="text" name="customerName" placeholder="Your Name">
+                    <input type="text" name="customerPhone" placeholder="Your Phone Number">
+                </div>
+                <textarea name="orderDetails" placeholder="Enter what you want..."></textarea>
+                <input type="text" name="orderDate" placeholder="Enter by when you need it...">
+                <textarea name="specialRequests" placeholder="Enter any special requests..."></textarea>
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Information</h2>
+        <p>Phone: +679 2125833, +679 2144209</p>
+        <p>Email: <a href="mailto:pshareha@gmail.com">pshareha@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/share.happinessfj" target="_blank">@share.happinessfj</a></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Share.happinessfj</p>
+</footer>
+
+</body>
+</html>
+
+
